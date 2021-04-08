@@ -8,8 +8,8 @@ function Routes() {
     return (
         <BrowserRouter>
             <Switch>
-                <Route  path="/" exact component={Login} />
-                <Route  path="/profile" exact component={Profile} />
+                <Route  path="/dngTeste/" exact component={Login} />
+                <Route  path="/dngTeste/profile" exact component={Profile} />
             </Switch>
         </BrowserRouter>
     )
