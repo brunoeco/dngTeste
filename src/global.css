@@ -1,0 +1,23 @@
+*, html {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+html, body, #root {
+    height: 100%;
+}
+
+.main {
+    min-height: 100%;
+
+    background-color: #31363B;
+
+    padding-bottom: 50px;
+
+    font-size: 14px;
+
+}
