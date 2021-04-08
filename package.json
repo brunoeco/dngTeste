@@ -1,8 +1,7 @@
 {
   "name": "web",
   "version": "0.1.0",
-  "private": true,  
-  "homepage": "https://brunoeco.github.io/dngTeste/",
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
