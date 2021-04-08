@@ -16,7 +16,7 @@ function Login() {
         e.preventDefault();
         
         if(username === credentials.username && password === credentials.password){
-            history.push('profile', username)
+            history.push('/dngTeste/profile', username)
 
         } else {
             alert('Usuário ou senha incorretas!')

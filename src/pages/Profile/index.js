@@ -15,11 +15,11 @@ function Login(props) {
     const history = useHistory();
 
     if(props.location.state === undefined || props.location.state === null){
-        history.push('/');
+        history.push('/dngTeste/');
     }
 
     function handleLogout() {
-        history.push('/');
+        history.push('/dngTeste/');
     }
 
     return (
@@ -50,7 +50,7 @@ function Login(props) {
                             cursando Análise e desenvolvimento de sistemas no seu 
                             segundo ano, moro em Industrial, Contagem. Gosto de passar meu tempo livre estudando, 
                             escutando música, jogando ou pesquisando sobre astronomia 
-                            ou tecnologia. <a href="http://brunoeco.github.io/portfolio">Acessar site pessoal</a>.
+                            ou tecnologia. <a target="_blank" rel="noreferrer" href="http://brunoeco.github.io/portfolio">Acessar site pessoal</a>.
                         </p>
 
                         
@@ -68,7 +68,7 @@ function Login(props) {
                                     usinagem e caldeiraria. Desenvolvido utilizando HTML, CSS, Javascrip e PHP.
                                 </p>
 
-                                <a href="http://centralusinagem.com.br/" >Visitar site!</a>
+                                <a target="_blank" rel="noreferrer" href="http://centralusinagem.com.br/" >Visitar site!</a>
                             </div>
 
                             <img src={centralImage} alt="centralImage" />
@@ -80,7 +80,7 @@ function Login(props) {
 
                         <div className="projects">
                             <span className="project-box">
-                                <a href="https://github.com/brunoeco/ecoleta">
+                                <a target="_blank" rel="noreferrer" href="https://github.com/brunoeco/ecoleta">
                                     <div className="project-0">
                                         <img src={project0Image} alt="projectImage" />
                                         <p>Ecoleta</p>
@@ -89,7 +89,7 @@ function Login(props) {
                             </span>
 
                             <span className="project-box">
-                                <a href="https://github.com/brunoeco/be-the-hero">
+                                <a target="_blank" rel="noreferrer" href="https://github.com/brunoeco/be-the-hero">
                                     <div className="project-0">
                                         <img src={project1Image} alt="projectImage" />
                                         <p>BeTheHero</p>
@@ -98,7 +98,7 @@ function Login(props) {
                             </span>
 
                             <span className="project-box">
-                                <a href="https://github.com/brunoeco/dev-radar">
+                                <a target="_blank" rel="noreferrer" href="https://github.com/brunoeco/dev-radar">
                                     <div className="project-0">
                                         <img src={project2Image} alt="projectImage" />
                                         <p>DevRadar</p>
@@ -107,7 +107,7 @@ function Login(props) {
                             </span>
                         </div>
 
-                        <a className="github-link" href="https://github.com/brunoeco">Acessar GitHub</a>
+                        <a className="github-link" target="_blank" rel="noreferrer" href="https://github.com/brunoeco">Acessar GitHub</a>
                     </div>
                 </div>
             </div>
